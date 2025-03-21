@@ -1,0 +1,20 @@
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.square img {
+  width: 70%;
+  height: 70%;
+  transition: all 0.3s ease;
+}
+
+.app.dark .square img {
+  filter: invert(1);
+}
+
+.app.light .square img {
+  filter: invert(0);
+}
